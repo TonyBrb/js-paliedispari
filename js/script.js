@@ -21,7 +21,7 @@ function palindroma(parola){
 //Pari o dispari
 
 const pariODispari = prompt('pari o dispari?');
-const numUtente = prompt('inserisci un numero da 1 a 5');
+const numUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
 const numPc = generaNumeroRandom();
 console.log('hai scelto',pariODispari);
 console.log('numUtente',numUtente);
